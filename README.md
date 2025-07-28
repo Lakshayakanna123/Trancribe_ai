@@ -5,7 +5,7 @@ from groq import Groq
 client = Groq(api_key='api12345678')  # ← Replace with your real API key
 
 # Step 2: Provide the full path to your audio file using raw string to avoid escape issues
-filename = r"C:\Users\klaks\OneDrive\Documents\DLK\batman\foxxx\Perfect - 320Kbps-(Mr-Jat.in).mp3"
+filename = r"fileaudio/Perfect - 320Kbps-(Mr-Jat.in).mp3"
 
 # Step 3: Check if the file exists
 if os.path.exists(filename):
